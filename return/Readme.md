@@ -47,6 +47,7 @@ Dronenpilot*in
  - erlaubte Flugzonen per App https://droneradar.eu/
 - Drohnenversicherung?
 - "Aufklärungsdaten" schnell zur Verfügung stellen
+- Spotter (Co-Pilot*in zur Überwachung des Luftraumes)
 
 # Ausrüstung
 
