@@ -39,6 +39,15 @@ Fahrer*in (2 Stück)
 - polnisch
 - eventuell französisch (Plan B)
 
+Dronenpilot*in
+- eigene Drohne
+- Drohne muss Luftaufnahmen machen können
+- polnische (französiche) Gesetze kennen
+ - https://my-road.de/drohnen-gesetze-in-polen/
+ - erlaubte Flugzonen per App https://droneradar.eu/
+- Drohnenversicherung?
+- "Aufklärungsdaten" schnell zur Verfügung stellen
+
 # Ausrüstung
 
 # Training
