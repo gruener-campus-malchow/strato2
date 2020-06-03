@@ -5,7 +5,7 @@ Beteiligt sind
 * Goethe-Gymnasium Lichterfelde (Funksender)
 * Grüner Campus Malchow (diverse Teilmissionen)
 # Countdown
-https://www.webcountdown.de/?a=YWnyEZy
+https://www.webcountdown.de/?a=Ep9aioy
 
 # return@strato2
 Diese Mission ist die Rückholmission, wenn der Ballon (bzw. die Sonde) wieder gelandet ist. Wir statten ein Fahrzeug aus und stellen Anforderungen an die Crew.
