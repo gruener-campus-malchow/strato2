@@ -4,7 +4,7 @@ from datetime import datetime
 
 from photo_frequency import getfrequency
 
-speedlist=[2,4,8,10,20,30,40,50,60,70,80,90,100]
+speedlist=[2,4,8,10,50,100,200,500]
 
 # init camera
 camera = PiCamera()
@@ -33,11 +33,12 @@ try:
 		date_time = now.strftime("%Y-%m-%d_%H-%M-%S-%f")
 		print('date: ' + date_time)
 		camera.annotate_text = "EARTHCAM: " + date_time
-		for speed in speedlist:
-			# setting shutter speed in microseconds
-			camera.shutter_speed = speed
-			print(speed)
-			camera.capture('/home/pi/shots/earthcam_' + date_time + '(' + str(speed)  + ').jpg')
+		camera.capture('/home/pi/shots/earthcam_' + date_time + '.jpg')
+#		for speed in speedlist:
+#			# setting shutter speed in microseconds
+#			camera.shutter_speed = speed
+#			print(speed)
+#			camera.capture('/home/pi/shots/earthcam_' + date_time + '(' + str(speed)  + ').jpg')
 		sleep(sleeptime)
 finally:
 	camera.close()
