@@ -1,6 +1,9 @@
 from picamera import PiCamera, Color
-#from time import sleep
+from time import sleep
 from datetime import datetime
+
+from photo_frequency import getfrequency
+
 
 # init camera
 camera = PiCamera()
@@ -17,12 +20,15 @@ camera.annotate_text_size = 50
 camera.annotate_background = Color('blue')
 camera.annotate_foreground = Color('yellow')
 
-for num in range(1,10):
-	print(num)
+while(True):
+#	print(num)
+	print(getfrequency())
+
 	now = datetime.now() # current date and time
 	date_time = now.strftime("%Y-%m-%d_%H-%M-%S-%f")
 	camera.annotate_text = "EARTHCAM: " + date_time
 	camera.capture('/home/pi/shots/earthcam_' + date_time  + '.jpg')
+	sleep(getfrequency())
 
 #camera.start_preview()
 #sleep(5)
