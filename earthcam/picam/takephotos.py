@@ -26,17 +26,19 @@ try:
 
 	while(True):
 	#	print(num)
-		print(getfrequency())
+		sleeptime = getfrequency()
+		print('sleeptime: ' + str(sleeptime))
 
 		now = datetime.now() # current date and time
 		date_time = now.strftime("%Y-%m-%d_%H-%M-%S-%f")
+		print('date: ' + date_time)
 		camera.annotate_text = "EARTHCAM: " + date_time
 		for speed in speedlist:
 			# setting shutter speed in microseconds
 			camera.shutter_speed = speed
 			print(speed)
-			camera.capture('/home/pi/shots/earthcam_' + date_time + '(' + speed  + ').jpg')
-		sleep(getfrequency())
+			camera.capture('/home/pi/shots/earthcam_' + date_time + '(' + str(speed)  + ').jpg')
+		sleep(sleeptime)
 finally:
 	camera.close()
 
