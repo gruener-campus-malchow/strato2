@@ -5,15 +5,21 @@ import configparser
 conf = configparser.ConfigParser()
 conf.read('/home/pi/strato2/earthcam/picam/photo_frequency_config.ini')
 
+
 def getfrequency():
 	now = datetime.datetime.now()
-
 	"Returns frequency of photos based on time and conf"
 	if (conf.getint('Start', 'mintime') <= now.minute and conf.getint('Start', 'hourtime') <= now.hour and conf.getint('Start', 'daytime') <= now.day and conf.getint('Start', 'mintime') + conf.getint('Start', 'minduration') >= now.minute and conf.getint('Start', 'hourtime') + conf.getint('Start', 'hourduration') >= now.hour and conf.getint('Start', 'daytime') + conf.getint('Start', 'dayduration') >= now.day):
-		return conf.getint('Start', 'frequency')
+	#	return conf.getint('Start', 'frequency')
+                print(conf.getint('Start', 'frequency'))
 	elif (conf.getint('Stop', 'mintime') <= now.minute and conf.getint('Stop', 'hourtime') <= now.hour and conf.getint('Stop', 'daytime') <= now.day):
-		return conf.getint('Start', 'frequency')
+	#	return conf.getint('Start', 'frequency')
+                print(conf.getint('Stop', 'frequency'))
 	elif (conf.getint('Night', 'mintime') <= now.minute and conf.getint('Night', 'hourtime') <= now.hour and conf.getint('Night', 'mintime') + conf.getint('Night', 'minduration') >= now.minute and conf.getint('Night', 'hourtime') + conf.getint('Night', 'hourduration') >= now.hour):
-		return conf.getint('Night', 'frequency')
+	#	return conf.getint('Night', 'frequency')
+	        print(conf.getint('Night', 'frequency'))
 	else:
-		return conf.getint('Normal', 'frequency')
+		print(conf.getint('Normal', 'frequency'))
+	#	return conf.getint('Normal', 'frequency')
+while(True):
+	getfrequency()
