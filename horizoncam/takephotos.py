@@ -33,7 +33,7 @@ try:
 		date_time = now.strftime("%Y-%m-%d_%H-%M-%S-%f")
 		print('date: ' + date_time)
 		camera.annotate_text = "EARTHCAM: " + date_time
-		camera.capture('/home/pi/shots/horizoncam_' + date_time + '.jpg')
+		camera.capture('/home/pi/shots/earthcam_' + date_time + '.jpg')
 #		for speed in speedlist:
 #			# setting shutter speed in microseconds
 #			camera.shutter_speed = speed
