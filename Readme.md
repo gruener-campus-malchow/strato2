@@ -4,8 +4,8 @@ Beteiligt sind
 * Robert-Havemann-Gymnasium Karow(Leitung und diverse Teilmissionen)
 * Goethe-Gymnasium Lichterfelde (Funksender)
 * Grüner Campus Malchow (diverse Teilmissionen)
-# Countdown
-https://www.webcountdown.de/?a=Ep9aioy
+# Offizielle Webseite des RHG
+https://www.robert-havemann-gymnasium.de/ballon
 
 # return@strato2
 Diese Mission ist die Rückholmission, wenn der Ballon (bzw. die Sonde) wieder gelandet ist. Wir statten ein Fahrzeug aus und stellen Anforderungen an die Crew.
