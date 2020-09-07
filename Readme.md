@@ -33,3 +33,6 @@ Anforderungen an die Teilnehmer*innen:
 - Programmierkenntnisse von Vorteil aber nicht Pflicht
 - Interesse an Microcontrollern
 - Erfahrungen mit Arduino IDE von Vorteil aber nicht Pflicht
+
+# Bilder vom Start
+![Bild01](IMG_5222.JPG)
