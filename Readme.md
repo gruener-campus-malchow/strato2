@@ -34,6 +34,11 @@ Anforderungen an die Teilnehmer*innen:
 - Interesse an Microcontrollern
 - Erfahrungen mit Arduino IDE von Vorteil aber nicht Pflicht
 
+# Abschlussbericht strato2
+Strato2 ist am 04.09.2020 beim dritten Startversuch erfolgreich in den Himmel aufgestiegen und hat sich auf den Weg gemacht.
+Allerdings kam es auf dem Weg nach unten zu einem Ausfall aller GPS-Sender. 
+Strato2 ist nun aus diesem Grund unauffindbar.
+
 # Bilder vom Start
 ![Bild01](IMG_5222.JPG)
 ![Bild01](IMG_5223.JPG)
