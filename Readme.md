@@ -39,6 +39,9 @@ Strato2 ist am 04.09.2020 beim dritten Startversuch erfolgreich in den Himmel au
 Allerdings kam es auf dem Weg nach unten zu einem Ausfall aller GPS-Sender. 
 Strato2 ist nun aus diesem Grund unauffindbar.
 
+## Aus der Perspektive der Rückholmission
+Ungefähr dreißig Minuten nach dem Start fror das GPS-Signal ein und die Systeme behaupteten, der Ballon sei über Seefeld bei Werneuchen. Allerdings konnten Hobbyfunker des TODO-Netzes das Singal der Sonde bis nach Polen verfolgen. Die Sonde ging wohl zwischen Katowize und Posen runter. Wir hatten mit einer eigenen Richtfunkantenne (Amon vom RHG) eine ungefähre Richtung.
+
 # Bilder vom Start
 ![Bild01](IMG_5222.JPG)
 ![Bild01](IMG_5223.JPG)
